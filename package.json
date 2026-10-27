@@ -1,0 +1,27 @@
+{
+  "name": "ece-virtual-lab-pro",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ECE Virtual Engineering Lab Pro — Interactive electronics laboratory",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^1.61.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.10.1",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.6.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}
